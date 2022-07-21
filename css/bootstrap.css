@@ -1640,7 +1640,8 @@ mark {
     text-align: center;
     width: 100%;
 }
-
+.explain
+{width: 90%;}
 .text-justify {
     text-align: justify
 }
@@ -2064,7 +2065,7 @@ pre code {
     float: left
 }
 
-.col-xs-12 {
+.col-xs-12 img{
     width: 100%
 }
 
@@ -2283,7 +2284,7 @@ pre code {
     .col-sm-9 {
         float: left
     }
-    .col-sm-12 {
+    .col-sm-12{
         width: 100%
     }
     .col-sm-11 {
