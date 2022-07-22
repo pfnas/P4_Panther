@@ -164,8 +164,8 @@ html input[disabled] {
     cursor: default
 }
 
-button::focus-inner,
-input::focus-inner {
+button::-moz-focus-inner,
+input::-moz-focus-inner {
     padding: 0;
     border: 0
 }
@@ -181,8 +181,8 @@ input[type=radio] {
     padding: 0
 }
 
-input[type=number]::inner-spin-button,
-input[type=number]::outer-spin-button {
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
     height: auto
 }
 
@@ -192,8 +192,8 @@ input[type=search] {
     appearance: textfield;
 }
 
-input[type=search]::search-cancel-button,
-input[type=search]::search-decoration {
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-web-search-decoration {
     -webkit-appearance: none
 }
 
@@ -4252,7 +4252,7 @@ tbody.collapse.in {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid/9;
+    border-top: 4px solid transparent;/*9*/
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
 }
@@ -5088,7 +5088,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
