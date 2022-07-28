@@ -1994,7 +1994,9 @@ pre code {
 
 .row {
     margin-right: -15px;
-    margin-left: -15px
+    margin-left: -15px;
+    display: flex;
+    justify-content: center;
 }
 
 .col-lg-1,
@@ -2286,7 +2288,8 @@ pre code {
         float: left
     }
     .col-sm-12{
-        width: 100%
+       padding: 50px;
+       background-color: rgba(243, 151, 108, .5);
     }
     .col-sm-11 {
         width: 91.66666667%
