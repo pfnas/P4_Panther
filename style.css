@@ -908,9 +908,9 @@ h4 {
         padding-left: 10px!important;
         padding-right: 10px!important;
     }
-    .b-parallax {
+    /* .b-parallax {
         background-attachment: scroll;
-    }
+    } */
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
