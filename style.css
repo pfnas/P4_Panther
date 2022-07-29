@@ -766,9 +766,9 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
+/* .bgc-dark-slate-blue {
     background-color: #364577;
-}
+} */
 
 .bgc-atomic-tangerine {
     background: rgba(172, 80, 38, .5);
@@ -876,9 +876,9 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+        padding-left: 20px;
+        padding-right: 20px;
+    }/*constant(safe-area-inset-left)*/
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -887,8 +887,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         /* padding: 0 20px; */
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
