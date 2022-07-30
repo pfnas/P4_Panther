@@ -2057,6 +2057,9 @@ align-items: center;}
     min-height: 1px;
     padding: 0 15px 15px 15px;
 }
+.col-sm-11
+{filter: contrast(200%);}
+
 
 .col-xs-1,
 .col-xs-10,
@@ -2295,7 +2298,6 @@ align-items: center;}
     .col-sm-12{
        padding: 50px;
        width: 100%;
-       filter: contrast(200%);
     }
     .col-sm-11 {
         width: 91%
