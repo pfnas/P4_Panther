@@ -2295,6 +2295,7 @@ align-items: center;}
     .col-sm-12{
        padding: 50px;
        width: 100%;
+       filter: contrast(1.5)
        
     }
     .col-sm-11 {
