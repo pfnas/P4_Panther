@@ -2303,7 +2303,8 @@ align-items: center;}
        width: 100%;
     }
     .keywords, .text-center.white, .bloc
-    {filter:contrast(200%)}
+    {filter:contrast(120%);
+    font-weight: 300;}
     .col-sm-11 {
         width: 91%
     }
