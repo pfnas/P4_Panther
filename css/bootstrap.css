@@ -2302,6 +2302,8 @@ align-items: center;}
        padding: 50px;
        width: 100%;
     }
+    .keywords, .text-center.white, .bloc
+    {filter:contrast(200%)}
     .col-sm-11 {
         width: 91%
     }
